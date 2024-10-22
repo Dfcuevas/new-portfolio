@@ -145,7 +145,7 @@ export const HeroSection = () => {
           <Link href="#contact">
             <button className="inline-flex items-center gap-2 border border-white bg-white hover:bg-green-300 text-gray-900 h-12 px-6 rounded-xl cursor-pointer">
               <span>👋</span>
-              <span className="font-semibold">Let's Connect</span>
+              <span className="font-semibold">Let&apos;s Connect</span>
             </button>
           </Link>
         </div>
