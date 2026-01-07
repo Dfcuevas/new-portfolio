@@ -1,9 +1,30 @@
-import dcstock from "@/assets/images/DCStock.png";
+import YcDirectory from "@/assets/images/Yc_directory.png";
 import CarePulse from "@/assets/images/carePulse-img.png";
 import TwitterCloneApp from "@/assets/images/twitter-clone.png";
 import ChatApp from "@/assets/images/Chat-app.png";
 
 export const portfolioProjects = [
+  {
+    company: "Personal Project",
+    year: "2025",
+    title: "YC Directory",
+    results: [
+      {
+        title:
+          "Developed a comprehensive startup directory platform with an intuitive and user-friendly interface for discovering and exploring startups.",
+      },
+      {
+        title:
+          "Built with a modern full-stack technology suite including Next.js 15, React 19, TailwindCSS for the frontend, Sanity CMS with GROQ for content management, NextAuth v5 with GitHub OAuth for authentication, Radix UI and Lucide Icons for UI components, Zod for validation, and Sentry for monitoring.",
+      },
+      {
+        title:
+          "Created a responsive design ensuring seamless user experience across all devices and screen sizes.",
+      },
+    ],
+    link: "https://yc-directory-blue-one.vercel.app/",
+    image: YcDirectory,
+  },
   {
     company: "Personal Project",
     year: "2024",
@@ -24,23 +45,6 @@ export const portfolioProjects = [
     ],
     link: "https://carepulse-app.vercel.app/",
     image: CarePulse,
-  },
-  {
-    company: "Personal project",
-    year: "2024",
-    title: "DCStock App",
-    results: [
-      {
-        title:
-          "Inventory management system developed with NextJs, Redux Toolkit, TailwindCss, NodeJs, Express, PostgreSQL and deployed on AWS.",
-      },
-      {
-        title:
-          "Features such as product filtering, sales graphs, costs, profits, user databases and a very complete and intuitive dashboard were implemented.",
-      },
-    ],
-    link: "https://main.d2va3tidas9dgb.amplifyapp.com/dashboard",
-    image: dcstock,
   },
 
   {
