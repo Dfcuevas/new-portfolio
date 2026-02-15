@@ -2,8 +2,30 @@ import YcDirectory from "@/assets/images/Yc_directory.png";
 import CarePulse from "@/assets/images/carePulse-img.png";
 import TwitterCloneApp from "@/assets/images/twitter-clone.png";
 import ChatApp from "@/assets/images/Chat-app.png";
+import Signalist from "@/assets/images/signalist.png";
 
 export const portfolioProjects = [
+  {
+    company: "Personal Project",
+    year: "2026",
+    title: "Signalist Stock Tracker",
+    results: [
+      {
+        title:
+          "Signalist Stock Tracker is a high-performance Full-Stack platform designed for investment portfolio management and real-time stock data analysis. Architecturally, it is built following a Server Rendering (SSR) and Incremental Static Generation (ISR) pattern using Next.js, which optimizes both SEO and the loading speed of complex financial data.",
+      },
+      {
+        title:
+          "Unlike traditional applications that rely on complex background processes, this project uses Inngest. This allows you to define technical 'workflows' that are triggered by events (such as when a stock reaches a target price). It allows you to handle automatic retries, time delays and conditional steps declaratively, ensuring that no market alert is lost due to network failures.",
+      },
+      {
+        title:
+          "The system doesn't just display numbers; integrates AI capabilities to process earnings reports and financial news. Perform automated summaries, transforming raw stock market data into actionable information (actionable insights) for the end user through natural language processing.",
+      },
+    ],
+    link: "https://signalist-stock-tracker-app-delta.vercel.app/",
+    image: Signalist,
+  },
   {
     company: "Personal Project",
     year: "2025",
