@@ -3,8 +3,34 @@ import CarePulse from "@/assets/images/carePulse-img.png";
 import TwitterCloneApp from "@/assets/images/twitter-clone.png";
 import ChatApp from "@/assets/images/Chat-app.png";
 import Signalist from "@/assets/images/signalist.png";
+import Fintrack from "@/assets/images/finTrack_img.png";
 
 export const portfolioProjects = [
+  {
+    company: "Personal Project",
+    year: "2026",
+    title: "Fintrack Personal Finance",
+    results: [
+      {
+        title:
+          "FinTrack is a web application for personal finance management. It allows each authenticated user to record income and expenses, categorize them, and view a visual summary of their financial situation. It is built with Next.js, uses Clerk for authentication, and uses Neon serverless PostgreSQL managed through Drizzle ORM. The data is organized by user: transactions, categories, and budgets belong to a specific account. The project uses strict TypeScript, Zod for form validation, Tailwind CSS for the user interface, and Recharts for interactive charts",
+      },
+      {
+        title:
+          "Automatic and Personalized Financial Onboarding - On the first login, FinTrack creates the local user from Clerk and seeds default income and expense categories, each with a name, icon, and color. This prevents users from starting with a completely empty system.",
+      },
+      {
+        title:
+          "Financial Dashboard Based on Real Data - The dashboard does not display static metrics. It calculates the overall balance, current-month income and expenses, and groups expenses by category for visualization.",
+      },
+      {
+        title:
+          "Practical History for Personal Auditing - Transactions can be queried using text search, category filtering, date sorting, and server-side pagination. This combination makes it easier to review specific transactions without having to manually load or browse through the entire history.",
+      },
+    ],
+    link: "https://fintrack-psi-three.vercel.app/",
+    image: Fintrack,
+  },
   {
     company: "Personal Project",
     year: "2026",
